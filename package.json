@@ -1,0 +1,12 @@
+{
+  "name": "componenetstest",
+  "version": "0.0.1",
+  "description": "simple test of components for web app",
+  "main": "index.js",
+  "author": "Aaron",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "serve-favicon": "^2.3.0"
+  }
+}

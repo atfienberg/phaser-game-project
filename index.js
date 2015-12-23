@@ -10,7 +10,7 @@ app.set('view engine', 'jade');
 app.use(express.static(__dirname + '/style'));
 app.use(express.static(__dirname + '/PongStuff'));
 
-var favicon = require('serve-favicon')
+var favicon = require('serve-favicon');
 app.use(favicon(__dirname + '/favicon/favicon.ico'));
 
 app.get('/', function(req, res) {
